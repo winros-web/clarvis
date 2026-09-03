@@ -33,7 +33,10 @@ logs/
 tmp/
 temp/
 .claudex-guard/
-.claude/
+.claude/*
+!.claude/memory/
+!.claude/README.md
+.claude/settings.local.json
 .agent/
 .workflow/
 TASKS.md
