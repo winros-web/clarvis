@@ -5,6 +5,15 @@ Entri terbaru di atas.
 
 ---
 
+## 2026-09-03 — Subagen asisten pribadi
+
+- Dibuat 5 subagen di `.claude/agents/`: `sekretaris`, `peneliti`, `penulis`,
+  `reviewer-kode`, `arsiparis`.
+- Batasan yang disepakati: `sekretaris` **tidak boleh mengirim email**, hanya
+  membuat draf; `reviewer-kode` hanya membaca, tidak mengubah file.
+- Bentuk agen lain yang belum dibuat dan bisa menyusul: Routine terjadwal
+  (jalan sendiri tanpa sesi), skill/slash command, dan hook.
+
 ## 2026-09-03 — Setup memori
 
 - Dibuat `CLAUDE.md` di root + folder `.claude/memory/` berisi profil, preferensi,

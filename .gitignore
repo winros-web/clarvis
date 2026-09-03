@@ -35,6 +35,7 @@ temp/
 .claudex-guard/
 .claude/*
 !.claude/memory/
+!.claude/agents/
 !.claude/README.md
 .claude/settings.local.json
 .agent/

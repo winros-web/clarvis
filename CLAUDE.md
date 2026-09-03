@@ -36,6 +36,19 @@ Kalau saya bilang "ingat ini" / "catat ini", tulis ke file memori yang paling
 cocok, lalu commit. Jangan simpan rahasia (API key, password, token) di file mana pun
 di sini — gunakan `.env` atau variabel lingkungan.
 
+## Subagen
+
+Tersedia di `.claude/agents/`. Panggil dengan menyebut namanya, atau biarkan
+dipilih otomatis saat tugasnya cocok.
+
+| Agen | Untuk apa |
+|---|---|
+| `sekretaris` | Email & kalender: ringkas inbox, lihat jadwal, siapkan draf balasan. Tidak pernah mengirim email — hanya membuat draf. |
+| `peneliti` | Riset web dengan sumber dan tanggal terbit. |
+| `penulis` | Menulis & menyunting teks Indonesia: email, dokumen, pengumuman. |
+| `reviewer-kode` | Tinjau perubahan kode sebelum commit. Hanya membaca, tidak mengubah. |
+| `arsiparis` | Merawat isi `.claude/memory/`. |
+
 ## Proyek: clarvis
 
 Voice assistant (notifikasi suara ala JARVIS) untuk Claude Code. TypeScript + Bun.
