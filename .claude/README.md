@@ -7,6 +7,8 @@ Konfigurasi & memori Claude Code untuk repositori ini.
   - `preferences.md` — preferensi kerja
   - `project-clarvis.md` — konteks teknis proyek
   - `log.md` — catatan antar sesi
+  - `pejuang-rupiah/` — folder kerja agen `pejuang-rupiah` (target, buku kas, ide)
+- `agents/` — definisi subagen (satu file `.md` per agen)
 
 Memori utama ada di `CLAUDE.md` pada root repo; file di sini di-import dari sana.
 
