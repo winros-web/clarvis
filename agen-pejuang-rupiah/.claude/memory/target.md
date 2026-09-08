@@ -1,7 +1,6 @@
 # Target Keuangan
 
-Diisi bertahap. Sebutkan angka dan tenggatnya supaya agen bisa mengukur
-progres.
+Sebutkan angka dan tenggat supaya progres bisa diukur.
 
 | Target | Jumlah | Tenggat | Terkumpul | Status |
 |---|---|---|---|---|
@@ -11,3 +10,4 @@ progres.
 
 - Pemasukan rutin: _(belum diisi)_
 - Batas pengeluaran per bulan: _(belum diisi)_
+- Alokasi tabungan per bulan: _(belum diisi)_

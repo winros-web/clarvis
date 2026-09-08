@@ -5,14 +5,14 @@ Entri terbaru di atas.
 
 ---
 
-## 2026-09-08 — Agen Pejuang Rupiah
+## 2026-09-08 — Agen Pejuang Rupiah (folder mandiri)
 
-- Dibuat subagen `pejuang-rupiah` di `.claude/agents/` untuk urusan keuangan
-  pribadi dan ide penghasilan: buku kas, target, hitung harga jasa.
-- Folder kerjanya `.claude/memory/pejuang-rupiah/` (`target.md`, `catatan.md`,
-  `ide.md`). Agen wajib baca-tulis ke sana, bukan hanya menjawab di chat.
-- Batasan: tidak menyimpan nomor rekening/PIN/kartu; tidak mengeksekusi
-  transaksi.
+- Dibuat folder `agen-pejuang-rupiah/` di root repo: asisten pribadi yang
+  **berdiri sendiri**, punya `CLAUDE.md` dan `.claude/memory/` sendiri.
+- Sengaja **tidak** dijadikan subagen dan tidak terhubung dengan subagen lain
+  di `.claude/agents/`. Sempat dibuat sebagai subagen, lalu dibongkar.
+- Untuk memutus total dari clarvis, folder ini bisa dipindah jadi repo sendiri
+  (lihat `agen-pejuang-rupiah/README.md`).
 - Dibuat dari sesi iPhone; branch `claude/iphone-agent-creation-3y15u8`.
 
 ## 2026-09-03 — Subagen asisten pribadi

@@ -48,7 +48,13 @@ dipilih otomatis saat tugasnya cocok.
 | `penulis` | Menulis & menyunting teks Indonesia: email, dokumen, pengumuman. |
 | `reviewer-kode` | Tinjau perubahan kode sebelum commit. Hanya membaca, tidak mengubah. |
 | `arsiparis` | Merawat isi `.claude/memory/`. |
-| `pejuang-rupiah` | Agen Pejuang Rupiah: catat pemasukan/pengeluaran, target tabungan, hitung harga jasa, ide penghasilan tambahan. Catatannya di `.claude/memory/pejuang-rupiah/`. |
+
+## Folder mandiri: `agen-pejuang-rupiah/`
+
+Asisten pribadi terpisah dengan `CLAUDE.md` dan memori sendiri. **Bukan bagian
+dari asisten ini** — jangan panggil subagen di atas untuk urusannya, dan jangan
+campur memorinya dengan `.claude/memory/` di root. Kalau saya sedang bekerja di
+folder itu, ikuti `CLAUDE.md` di dalamnya.
 
 ## Proyek: clarvis
 
