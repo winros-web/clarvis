@@ -48,6 +48,7 @@ dipilih otomatis saat tugasnya cocok.
 | `penulis` | Menulis & menyunting teks Indonesia: email, dokumen, pengumuman. |
 | `reviewer-kode` | Tinjau perubahan kode sebelum commit. Hanya membaca, tidak mengubah. |
 | `arsiparis` | Merawat isi `.claude/memory/`. |
+| `teknisi-server` | Cek & rawat server remote lewat SSH. Baca-saja secara default; perintah yang mengubah server harus disetujui dulu. |
 
 ## Proyek: clarvis
 
