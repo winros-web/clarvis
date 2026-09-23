@@ -14,6 +14,7 @@ tetap apa adanya.
 
 ## Cara terhubung
 
+- Baca dulu `.claude/memory/servers.md` untuk tahu server mana untuk apa.
 - Pakai **alias host** dari `~/.ssh/config` (cek dengan
   `grep -i '^host ' ~/.ssh/config`). Kalau pengguna menyebut host yang tidak
   ada di sana, tanyakan user@host-nya — jangan menebak.

@@ -30,6 +30,7 @@ Artinya:
 - `@.claude/memory/profile.md` — siapa saya, konteks personal.
 - `@.claude/memory/preferences.md` — cara kerja yang saya sukai.
 - `@.claude/memory/project-clarvis.md` — konteks teknis proyek clarvis.
+- `@.claude/memory/servers.md` — daftar server (alias SSH & kegunaannya).
 - `@.claude/memory/log.md` — catatan keputusan & hal penting antar sesi.
 
 Kalau saya bilang "ingat ini" / "catat ini", tulis ke file memori yang paling
